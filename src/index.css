@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add cursor pointer for all links and buttons */
+@layer components {
+  a,
+  button {
+    @apply cursor-pointer;
+  }
+}
