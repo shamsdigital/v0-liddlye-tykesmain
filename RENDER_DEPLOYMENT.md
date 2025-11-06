@@ -13,14 +13,14 @@
 ### For Static Site Deployment:
 
 **Build Command:**
-```bash
+\`\`\`bash
 npm run build
-```
+\`\`\`
 
 **Publish Directory:**
-```
+\`\`\`
 out
-```
+\`\`\`
 
 **Environment:**
 - Node Version: 22.x (or leave as default)
@@ -52,10 +52,10 @@ The build script now includes:
 
 To test the static export locally:
 
-```bash
+\`\`\`bash
 npm run build
 cd out
 python3 -m http.server 8080
-```
+\`\`\`
 
 Then visit http://localhost:8080
