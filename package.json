@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
+    "build": "npm install --legacy-peer-deps && next build",
     "dev": "next dev",
     "lint": "eslint .",
     "start": "next start"
@@ -62,7 +62,6 @@
     "react-dom": "^19",
     "react-hook-form": "^7.60.0",
     "react-resizable-panels": "^2.1.7",
-    "react-router-dom": "latest",
     "recharts": "2.15.4",
     "sass": "latest",
     "sass-embedded": "latest",
@@ -74,7 +73,7 @@
     "terser": "latest",
     "tsx": "latest",
     "typescript-eslint": "latest",
-    "vaul": "^0.9.9",
+    "vaul": "^1.1.1",
     "vite": "latest",
     "yaml": "latest",
     "zod": "3.25.76"
